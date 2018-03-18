@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <zhuwentao.com.rippleview.RippleView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            app:cColor="#ff0000"
+            app:cDensity="10"
+            app:cIsAlpha="true"
+            app:cIsFill="true"/>
+
+        <zhuwentao.com.rippleview.RippleView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            app:cColor="#00ff00"
+            app:cDensity="10"
+            app:cIsAlpha="true"
+            app:cIsFill="true"/>
+
+        <zhuwentao.com.rippleview.RippleView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            app:cColor="#0000ff"
+            app:cDensity="10"
+            app:cIsAlpha="true"
+            app:cIsFill="true"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <zhuwentao.com.rippleview.RippleView
+            android:id="@+id/rpv_ripple"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            app:cColor="#ff0000"
+            app:cDensity="8"
+            app:cIsAlpha="false"/>
+
+        <zhuwentao.com.rippleview.RippleView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            app:cColor="#00ff00"
+            app:cDensity="8"
+            app:cIsAlpha="false"/>
+
+        <zhuwentao.com.rippleview.RippleView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            app:cColor="#0000ff"
+            app:cDensity="8"
+            app:cIsAlpha="false"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <zhuwentao.com.rippleview.RippleView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            app:cColor="#ff0000"
+            app:cDensity="5"
+            app:cIsAlpha="true"/>
+
+        <zhuwentao.com.rippleview.RippleView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            app:cColor="#00ff00"
+            app:cDensity="5"
+            app:cIsAlpha="true"/>
+
+        <zhuwentao.com.rippleview.RippleView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            app:cColor="#0000ff"
+            app:cDensity="5"
+            app:cIsAlpha="true"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <zhuwentao.com.rippleview.RippleView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            app:cColor="#ff0000"
+            app:cDensity="1"
+            app:cIsAlpha="true"
+            app:cSpeed="3"/>
+
+        <zhuwentao.com.rippleview.RippleView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            app:cColor="#00ff00"
+            app:cDensity="1"
+            app:cIsAlpha="true"
+            app:cSpeed="3"/>
+
+        <zhuwentao.com.rippleview.RippleView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            app:cColor="#0000ff"
+            app:cDensity="1"
+            app:cIsAlpha="true"
+            app:cSpeed="3"/>
+    </LinearLayout>
+
+
+</LinearLayout>

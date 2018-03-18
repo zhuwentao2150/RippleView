@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--涟漪控件属性-->
+    <declare-styleable name="mRippleView">
+        <attr name="cColor" format="color"/>
+        <attr name="cSpeed" format="integer"/>
+        <attr name="cDensity" format="integer"/>
+        <attr name="cIsFill" format="boolean"/>
+        <attr name="cIsAlpha" format="boolean"/>
+    </declare-styleable>
+
+</resources>
